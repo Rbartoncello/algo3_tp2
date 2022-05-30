@@ -1,0 +1,56 @@
+@startuml
+
+title Relationships - Class Diagram
+
+
+class Movimientos {
+  +actualizarMovimientos(cant: Int)
+}
+
+class Jugador {
+  +moverHaciaDireccion(unaDirecion: Direccion)
+}
+
+class Vehiculo {
+  +moverHaciaDireccion(unaDirecion: Direccion)
+  -avanzar()
+  +actualizarSobreEvento(evento: Evento)
+}
+
+class Escenario {
+  +buscarEventoEnCuadra(cuadraActual: Cuadra)
+}
+
+class Cuadra {
+  +conseguirEvento()
+}
+
+class Movimientos
+class Jugador
+class Vehiculo
+class 4x4
+class Auto
+class Moto
+class GPS_Challenge
+class Escenario
+class Cuadra
+class Evento
+class Sorpresa
+class Obstaculo
+
+Movimientos <-Jugador 
+Jugador <- Vehiculo
+Vehiculo <|-down- 4x4
+Vehiculo <|-down- Auto
+Vehiculo <|-down- Moto
+
+Vehiculo -> Cuadra
+Jugador -> Escenario
+Escenario -> Cuadra
+Cuadra -> Evento
+Evento <|-Sorpresa
+Evento <|-Obstaculo
+GPS_Challenge -> Jugador
+GPS_Challenge -> Escenario
+
+@enduml
