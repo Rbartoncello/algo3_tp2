@@ -8,7 +8,7 @@ Trabajo Práctico número 2 de la materia Algoritmos y Programación III de FIUB
 
 * **Ricardo Bartoncello** - [rbartoncello](https://github.com/rbartoncello)
 * **Juan Martin Iglesias** - [JuanMartinIglesias](https://github.com/JuanMartinIglesias)
-* **Integrante 3** - [integrante3](https://github.com/integrante3)
+* **Joaquín Lonardi** - [JoaquinLonardi](https://github.com/JoaquinLonardi)
 * **Integrante 4** - [integrante4](https://github.com/integrante4)
 
 Corrector: **{Corrector}**
