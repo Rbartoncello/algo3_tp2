@@ -1,4 +1,13 @@
-import gps_challenge.*;
+package edu.fiuba.algo3.modelo;
+
+import edu.fiuba.algo3.gps_challenge.Jugador;
+import edu.fiuba.algo3.gps_challenge.Vehiculo;
+import edu.fiuba.algo3.gps_challenge.GPS_Challenge;
+import edu.fiuba.algo3.gps_challenge.Moto;
+import edu.fiuba.algo3.gps_challenge.Arriba;
+import edu.fiuba.algo3.gps_challenge.Auto;
+import edu.fiuba.algo3.gps_challenge.CxC;
+
 import org.junit.jupiter.api.Test;
 
 

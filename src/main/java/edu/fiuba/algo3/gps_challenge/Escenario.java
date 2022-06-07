@@ -1,5 +1,4 @@
-package gps_challenge;
-
+package edu.fiuba.algo3.gps_challenge;
 public class Escenario {
     //El tamaño del escenario tiene que ser aleatorio, según la consigna (o por lo menos variar)
     //Por el momento lo dejo fijo.

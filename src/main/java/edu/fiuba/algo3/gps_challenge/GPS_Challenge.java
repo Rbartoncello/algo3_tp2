@@ -1,5 +1,4 @@
-package gps_challenge;
-
+package edu.fiuba.algo3.gps_challenge;
 public class GPS_Challenge {
     public Escenario escenario;
     public Jugador jugador;

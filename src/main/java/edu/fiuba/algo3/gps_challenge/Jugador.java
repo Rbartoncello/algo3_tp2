@@ -1,5 +1,4 @@
-package gps_challenge;
-import java.util.HashMap;
+package edu.fiuba.algo3.gps_challenge;
 
 public class Jugador {
     Vehiculo vehiculo;
