@@ -1,4 +1,4 @@
-package edu.fiuba.algo3.gps_challenge;
+package edu.fiuba.algo3.modelo;
 public abstract class Direccion {
     int x;
     int y;

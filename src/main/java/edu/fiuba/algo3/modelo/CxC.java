@@ -1,4 +1,4 @@
-package edu.fiuba.algo3.gps_challenge;
+package edu.fiuba.algo3.modelo;
 public class CxC extends Vehiculo {
 
     int cant_pozos = 0;

@@ -1,22 +1,14 @@
 package edu.fiuba.algo3.modelo;
 
-import edu.fiuba.algo3.gps_challenge.Jugador;
-import edu.fiuba.algo3.gps_challenge.Vehiculo;
-import edu.fiuba.algo3.gps_challenge.GPS_Challenge;
-import edu.fiuba.algo3.gps_challenge.Moto;
-import edu.fiuba.algo3.gps_challenge.Arriba;
-import edu.fiuba.algo3.gps_challenge.Auto;
-import edu.fiuba.algo3.gps_challenge.CxC;
-
 import org.junit.jupiter.api.Test;
 
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class GPS_ChallengeTest {
+public class GPS_ChallengeTest {
 
     @Test
-    void test01UnaMotoCruzaLaCiudadEncuentraPozoYPenaliza() {
+    public void test01UnaMotoCruzaLaCiudadEncuentraPozoYPenaliza() {
 
         Vehiculo vehiculo = new Moto();
         Jugador jugador = new Jugador(vehiculo);
@@ -32,7 +24,7 @@ class GPS_ChallengeTest {
     }
 
     @Test
-    void test02UnAutoCruzaLaCiudadEncuentraPozoYPenaliza() {
+    public void test02UnAutoCruzaLaCiudadEncuentraPozoYPenaliza() {
         Vehiculo vehiculo = new Auto();
         Jugador jugador = new Jugador(vehiculo);
 
@@ -47,7 +39,7 @@ class GPS_ChallengeTest {
     }
 
     @Test
-    void test03Una4x4CruzaLaCiudadEncuentraPozoYNoPenaliza() {
+    public void test03Una4x4CruzaLaCiudadEncuentraPozoYNoPenaliza() {
         Vehiculo vehiculo = new CxC();
         Jugador jugador = new Jugador(vehiculo);
 

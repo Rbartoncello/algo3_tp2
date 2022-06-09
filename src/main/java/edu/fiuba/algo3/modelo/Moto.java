@@ -1,4 +1,4 @@
-package edu.fiuba.algo3.gps_challenge;
+package edu.fiuba.algo3.modelo;
 public class Moto extends Vehiculo {
     public int actuarSobreEvento(Evento evento) {
         //Habría que intentar evitar los ifs, supongo
